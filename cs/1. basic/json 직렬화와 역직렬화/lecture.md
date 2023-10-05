@@ -1,6 +1,7 @@
 # JSON 직렬화 역직렬화
 
 > 정의: javascript 객체 문법으로 구조화된 데이터 교환 형식
+> Javascript Object Notation
 
 ### 1. Javascript 객체 문법
 
