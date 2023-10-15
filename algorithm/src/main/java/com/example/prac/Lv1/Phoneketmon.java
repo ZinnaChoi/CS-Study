@@ -6,7 +6,7 @@ public class Phoneketmon {
 
     public int solution(int[] nums) {
 
-        List<Integer> numSet = new ArrayList();
+        List<Integer> numSet = new ArrayList<>();
         for (int n : nums) {
             if (!numSet.contains(n)) {
                 numSet.add(n);
