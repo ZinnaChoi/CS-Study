@@ -39,7 +39,7 @@ cf) MVC 패턴의 경우 모델과 View가 양방향적
 
 ![Alt text](image-1.png)
 
-- 액션의 타입에 따라서 dispatcher 가 로직을 수행하고 이를 stord에 전달
+- 액션의 타입에 따라서 dispatcher 가 로직을 수행하고 이를 store에 전달
 
 ```js
 const initialState = {
