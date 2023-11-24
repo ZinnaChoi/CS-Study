@@ -17,15 +17,15 @@ console.timeEnd("test");
 
 ex)
 
-```
-for(int i = 0; i < 10; i++){
-    for(int j =0; j < n; j++){
-        for(int k = 0; k < n; k++){
-            if(true) cout << k << '\n';
+```cpp
+for(int i = 0; i < 10; i++){  // 10번
+    for(int j =0; j < n; j++){  //n번
+        for(int k = 0; k < n; k++){  //n번
+            if(true) cout << k << '\n';  //단순한 로직
             }
         }
     }
-for(int i = 0; i < n; i++){
+for(int i = 0; i < n; i++){ // n번
     if(true) cout << i << '\n';
 }
 ```
