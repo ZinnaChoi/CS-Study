@@ -75,3 +75,55 @@ int main(){
 - go 라는 함수가 몇번 호출되는지 디버깅
 
 => 0(n)
+
+### Q4
+
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+int N;
+void solve(int N){
+    int a = 0, i = N;
+    while (i > 0) {
+        a += i;
+        i /= 2;
+    }
+    cout << a << '\n';
+}
+int main(){
+    cin >> N;
+    solve(N);
+    return 0;
+}
+```
+
+- log밑(x) = y (밑을 y번 곱해야 x)
+
+=> O(log2(N))
+
+### Q5
+
+```cpp
+include<bits/stdc++.h>
+using namespace std;
+int N, cnt;
+void solve(int N){
+    cnt++;  // 메인 로직
+    cout << cnt << '\n'; // 메인 로직
+    if(N == 0) return;
+    for(int i = 0; i < 3; i++){
+        solve(N - 1);
+    }
+    return;
+}
+int main(){
+    cin >> N;
+    solve(N);
+    return 0;
+}
+```
+
+- 재귀 함수의 시간 복잡도 = main 로직 \* 함수 호출 횟수
+  = 1 \* (1 + 3+ 9 + 27 + ..)
+
+=> O(3^N)
