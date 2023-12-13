@@ -7,7 +7,7 @@
 
 - 참조 : O(logn)
 - 탐색 : O(logn)
-- 삽입 / 삭제 : O(logn
+- 삽입 / 삭제 : O(logn)
 
 ```java
 import java.util.Set;
