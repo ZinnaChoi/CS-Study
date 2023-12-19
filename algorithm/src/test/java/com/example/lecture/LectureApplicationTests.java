@@ -1,12 +1,13 @@
-package com.example.prac;
+package com.example.lecture;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PracApplicationTests {
+class LectureApplicationTests {
 
 	@Test
 	void contextLoads() {
 	}
+
 }
