@@ -7,7 +7,7 @@ public class WordInSentence {
   public String mySolution(String sentence) {
     String[] words = sentence.split(" ");
     String longestWord = "";
-    for (int i = words.length - 1; i >= 0; i--) {
+    for (int i = 0; i < words.length; i++) {
       if (words[i].length() > longestWord.length()) longestWord = words[i];
     }
     return longestWord;
@@ -35,13 +35,13 @@ public class WordInSentence {
     while ((pos = str.indexOf(' ')) != -1) {
       String tmp = str.substring(0, pos);
       int len = tmp.length();
-      if (len > m) { // 여기에 부등호 없어야 -> 가장 먼저 발견된 가장 긴 단어가 정답
+      if (len > m) { // 여기에 부등호 없어야 -> 가장 앞쪽에 위치한 긴 단어가 정답
         m = len;
         answer = tmp;
       }
       str = str.substring(pos + 1);
     }
-    if (str.length() > m) answer = str; // 마지막 단어 처리 필요
+    if (str.length() > m) answer = str; // 마지막 단어 처리
     return answer;
   }
 
