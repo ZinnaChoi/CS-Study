@@ -52,5 +52,6 @@ public class WordInSentence {
     System.out.println(T.mySolution(sentence));
     // System.out.println(T.teacherSolution1(sentence));
     // System.out.println(T.teacherSolution2(sentence));
+    kb.close();
   }
 }

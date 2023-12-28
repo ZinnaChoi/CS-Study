@@ -64,7 +64,7 @@ public class ReverseWord {
     for (String x : T.teacherSolution2(N, str)) {
       System.out.println(x);
     }
-
+    kb.close();
     return;
   }
 }

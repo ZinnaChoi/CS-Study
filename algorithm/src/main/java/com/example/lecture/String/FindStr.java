@@ -38,6 +38,7 @@ public class FindStr {
 
     // System.out.print(T.mySolution(str, c));
     System.out.print(T.teacherSolution(str, c));
+    kb.close();
     return;
   }
 }

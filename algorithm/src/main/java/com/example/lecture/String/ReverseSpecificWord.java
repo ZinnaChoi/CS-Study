@@ -61,6 +61,7 @@ public class ReverseSpecificWord {
     String str = kb.next();
     System.out.println(T.mySolution(str));
     // System.out.println(T.teacherSolution(str));
+    kb.close();
     return;
   }
 }

@@ -2,7 +2,6 @@ package com.example.prac.Lv2;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import com.example.prac.Lv2.NBaseNumberGame;
 import org.junit.jupiter.api.Test;
 
 public class NBaseNumberGameTest {

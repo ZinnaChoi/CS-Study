@@ -37,5 +37,6 @@ public class ValidPalindrome {
     String str = kb.nextLine();
     System.out.println(T.mySolution(str));
     // System.out.println(T.teacherSolution(str));
+    kb.close();
   }
 }

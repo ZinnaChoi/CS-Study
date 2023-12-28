@@ -42,6 +42,7 @@ public class ConvertCase {
     //System.out.println(T.mySolution(str));
     // System.out.println(T.teacherSolution1(str));
     System.out.println(T.teacherSolution2(str));
+    kb.close();
     return;
   }
 }
