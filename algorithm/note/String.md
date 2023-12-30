@@ -20,8 +20,20 @@
 - str.substring(start): 문자열 str의 [start ~ 범위 슬라이싱.
 - str.replaceAll([정규표현식], "치환할 문자"): 정규표현식을 사용하여 문자열 치환.
 - str.charAt(idx): idx 위치의 char 추출
+- str.replace("A","B") : 문자열 내 모든 일치하는 A 문자열을 B로 대체
+- str.replaceAll([regex], str): 정규표현식에 일치하는 모든 문자열을 str로 대체
 
 ## 문자 및 문자열 변환
+
+### 2진수 -> 10진수
+
+- Integer.parseInt(binaryString, 2);
+- Integer.valueOf(binaryStirng, 2);
+
+### 10진수 -> 2진수
+
+- Integer.toBinaryString(int 십진수);
+- Integer.toString(int 십진수, 진법(ex 2));
 
 ### char 형 변환
 
@@ -30,8 +42,9 @@
 
 ### Scanner 사용
 
-- char 입력 받기: scanner.next().charAt(0).
-- 한 줄 전체 스캔: scanner.nextLine().
+- char 입력 받기: scanner.next().charAt(0)
+- 한 줄 전체 스캔: scanner.nextLine()
+- int 입력 받기: scanner.nextInt();
 
 ## 문자열 조작 권장 사항
 
