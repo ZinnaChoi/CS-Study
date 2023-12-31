@@ -8,7 +8,7 @@
 - 알파벳 및 숫자 여부 확인: `Character.isAlphabetic(char c), Character.isDigit(char)`
 - 아스키 코드
 
-  - 대문자: 6590, 소문자: 97122, 숫자: 48~57.
+  - 대문자: 65~90, 소문자: 97~122, 숫자: 48~57.
   - 소문자에서 32를 빼면 대문자가 됨.
 
 ## 문자열 및 문자 조작 메서드
@@ -59,4 +59,4 @@
   ![](https://velog.velcdn.com/images/zinna_1109/post/be18e69f-aefe-4c8f-ac6c-583a05d56a72/image.png)
 
 - 가장 짧은 문자 거리 찾는 로직
-  ![Alt text](image.png)
+  ![Alt text](image/image.png)
