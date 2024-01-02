@@ -45,3 +45,5 @@
 # 부분집합 구하기
 
 ![Alt text](image/image6.png)
+
+![Alt text](image/image7.png)
