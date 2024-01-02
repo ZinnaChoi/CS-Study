@@ -41,3 +41,7 @@
   - 4, 5, 2, 6, 7, 3, 1
 
 ![Alt text](image/image5.png)
+
+# 부분집합 구하기
+
+![Alt text](image/image6.png)
