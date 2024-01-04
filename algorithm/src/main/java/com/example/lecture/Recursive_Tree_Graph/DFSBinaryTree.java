@@ -11,7 +11,7 @@ class Node {
   }
 }
 
-public class BinaryTree {
+public class DFSBinaryTree {
 
   Node root;
 
@@ -28,7 +28,7 @@ public class BinaryTree {
   }
 
   public static void main(String args[]) {
-    BinaryTree tree = new BinaryTree();
+    DFSBinaryTree tree = new DFSBinaryTree();
     tree.root = new Node(1);
     tree.root.lt = new Node(2);
     tree.root.rt = new Node(3);

@@ -47,3 +47,15 @@
 ![Alt text](image/image6.png)
 
 ![Alt text](image/image7.png)
+
+# 이진트리 순회 (넓이 우선 탐색: 레벨 탐색 BFS)
+
+![Alt text](image/image4.png)
+
+- 레벨 순서대로 탐색
+- 최단경로
+- queue 사용
+- 1, 2, 3, 4, 5, 6, 7
+- 루트로부터 간선 1만에 갈 수 있는 노드 모두 방문 -> 루트로부터 간선 2만에 갈 수 있는 노드 모두 방문 -> ...
+
+![Alt text](image/image8.png)
