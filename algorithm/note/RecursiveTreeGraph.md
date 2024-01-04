@@ -59,3 +59,7 @@
 - 루트로부터 간선 1만에 갈 수 있는 노드 모두 방문 -> 루트로부터 간선 2만에 갈 수 있는 노드 모두 방문 -> ...
 
 ![Alt text](image/image8.png)
+
+# BFS 송아지 찾기
+
+![Alt text](image/image9.png)
