@@ -63,3 +63,7 @@
 # BFS 송아지 찾기
 
 ![Alt text](image/image9.png)
+
+# DFS Tree 말단 노드까지의 가장 짧은 경로
+
+![Alt text](image/image10.png)
