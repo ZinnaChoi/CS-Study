@@ -67,3 +67,7 @@
 # DFS Tree 말단 노드까지의 가장 짧은 경로
 
 ![Alt text](image/image10.png)
+
+# 그래프와 인접행렬
+
+![Alt text](image.png)
