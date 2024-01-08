@@ -70,4 +70,10 @@
 
 # 그래프와 인접행렬
 
-![Alt text](image.png)
+![Alt text](image/image11.png)
+
+# 경로 탐색 (인접 리스트, ArrayList)
+
+- 노드의 개수가 많을 때는 인접 행렬 보다는 인접 리스트를 사용하자!
+
+![Alt text](image/image12.png)
