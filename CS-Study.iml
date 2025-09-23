@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/detail/1. basic/11) 클래스 vs 객체 vs 인스턴스" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/detail/1. basic/12) static 키워드의 사용과 단점" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/detail/1. basic/13) 오버로딩과 오버라이딩" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/detail/1. basic/14) 추상화" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
